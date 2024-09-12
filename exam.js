@@ -22,7 +22,7 @@
 
 
 
-const mission1 = (arry) => {
+const Mission1 = (arry) => {
     return arry.filter(x => x % 2 == 0);
 }
 const myArry = [1, 2, 3, 4, 5, 6]
@@ -61,7 +61,7 @@ const values = ["a", "b", "c"];
     
 module.exports = {
 
-mission1,
+Mission1,
 
 Mission2,
 
