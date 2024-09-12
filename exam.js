@@ -45,13 +45,13 @@ const myMatrix = [[1, 2], [3, 4]];
 
 const Mission5 = (keys, values) => {
     const myObg = {};
-    for(let i = 0; i < keys.length; i++){
+    for(let i = 0; i < keys.length && i < values.length; i++){
         myObg[keys[i]] = values[i];
     }
     return myObg;
 }
-const keys = ["1", "2", "3"];
-const values = ["a", "b", "c"];
+const keys = ["1", "2", "3", "4", "5"];
+const values = ["a", "b", "c", "d"];
 // console.log(Mission5(keys, values));
 
 
